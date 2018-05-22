@@ -54,55 +54,22 @@ when 9
   return "September"
 end
 end
-# def number_to_full_name__month_1(monthnumber)
-#   if monthnumber = 1
-#   return "January"
-# end
-# end
-#
-# number_to_full_name__month_1(1)
-#
-# def number_to_full_name__month_3(monthnumber)
-#   if monthnumber = 3
-#   return "March"
-# end
-#
-# number_to_full_name__month_3(3)
-#
-# def number_to_full_name__month_9(monthnumber)
-#   if monthnumber = 9
-#   return "September"
-# end
-# end
-#
-# number_to_full_name__month_9(9)
-#
-#
-# def substring__month_1(monthnumber)
-#   if monthnumber = 1
-#     return "Jan"
-#   end
-# end
-#
-# substring__month_1(1)
-#
-# def substring__month_3(monthnumber)
-#   if monthnumber = 3
-#     return "Mar"
-#   end
-# end
-#
-# substring__month_3(3)
-#
-# def substring__month_9(monthnumber)
-#   if monthnumber = 3
-#     return "Sep"
-#   end
-# end
-#
-# substring__month_9(9)
-# case month_number
-# when
+
+
+def number_to_short_month_name(number)
+  case number
+  when 1
+    return "Jan"
+  when 4
+    return "Apr"
+  when 10
+    return "Oct"
+  end
+end
+
+first_month_string = number_to_short_month_name(1)
+fourth_month_string = number_to_short_month_name(4)
+tenth_month_string = number_to_short_month_name(10)
 
 
 def volume_of_cube(length)
