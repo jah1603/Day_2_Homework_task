@@ -92,7 +92,8 @@ add_string_as_number("1", "2")
 # end
 #
 # substring__month_9(9)
-
+# case month_number
+# when
 
 
 def volume_of_cube(length)
@@ -100,3 +101,16 @@ def volume_of_cube(length)
 end
 
 volume_of_cube(3)
+
+def volume_of_sphere(radius)
+  return (1.33 * 3.14 * (radius ** 3)).round(3)
+end
+
+volume_of_sphere(1)
+
+
+def fahrenheit_to_celsius(fahrenheitvalue)
+  return (32 / fahrenheitvalue) + 1.8
+end
+
+fahrenheit_to_celsius(1)
