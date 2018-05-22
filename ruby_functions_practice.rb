@@ -44,7 +44,16 @@ end
 
 add_string_as_number("1", "2")
 
-
+def number_to_full_month_name(number)
+case number
+when 1
+  return "January"
+when 3
+  return "March"
+when 9
+  return "September"
+end
+end
 # def number_to_full_name__month_1(monthnumber)
 #   if monthnumber = 1
 #   return "January"
