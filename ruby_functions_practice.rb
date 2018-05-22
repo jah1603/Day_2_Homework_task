@@ -45,11 +45,58 @@ end
 add_string_as_number("1", "2")
 
 
-def test_number_to_full_name__month_1()
-  result = number_to_full_month_name( 1 )
-  assert_equal( "January", result )
+# def number_to_full_name__month_1(monthnumber)
+#   if monthnumber = 1
+#   return "January"
+# end
+# end
+#
+# number_to_full_name__month_1(1)
+#
+# def number_to_full_name__month_3(monthnumber)
+#   if monthnumber = 3
+#   return "March"
+# end
+#
+# number_to_full_name__month_3(3)
+#
+# def number_to_full_name__month_9(monthnumber)
+#   if monthnumber = 9
+#   return "September"
+# end
+# end
+#
+# number_to_full_name__month_9(9)
+#
+#
+# def substring__month_1(monthnumber)
+#   if monthnumber = 1
+#     return "Jan"
+#   end
+# end
+#
+# substring__month_1(1)
+#
+# def substring__month_3(monthnumber)
+#   if monthnumber = 3
+#     return "Mar"
+#   end
+# end
+#
+# substring__month_3(3)
+#
+# def substring__month_9(monthnumber)
+#   if monthnumber = 3
+#     return "Sep"
+#   end
+# end
+#
+# substring__month_9(9)
+
+
+
+def volume_of_cube(length)
+  return length ** 3
 end
 
-# def test_number_to_full_name_month_1(number)
-#
-# end
+volume_of_cube(3)
