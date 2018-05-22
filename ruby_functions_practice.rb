@@ -37,3 +37,19 @@ def join_string(string_1, string_2)
 end
 
 join_string("Mary had a little lamb, ", "its fleece was white as snow")
+
+def add_string_as_number(number1, number2)
+  return number1.to_i() + number2.to_i()
+end
+
+add_string_as_number("1", "2")
+
+
+def test_number_to_full_name__month_1()
+  result = number_to_full_month_name( 1 )
+  assert_equal( "January", result )
+end
+
+# def test_number_to_full_name_month_1(number)
+#
+# end
